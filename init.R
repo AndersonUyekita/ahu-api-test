@@ -1,4 +1,4 @@
-my_packages = c("plumber", "ggplot2")
+my_packages = c("plumber", "knitr")
 install_if_missing = function(p) {
     if (p %in% rownames(installed.packages()) == FALSE) {
         install.packages(p, dependencies = TRUE)
